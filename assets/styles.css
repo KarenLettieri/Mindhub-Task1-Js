@@ -1,6 +1,21 @@
+body {
+ background-color: #f2f2f2; 
+}
+
+.navbar {
+  background: rgb(242,242,242);
+background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(96,96,96,1) 100%);
+}
+
+.form-check-input:checked {
+  background-color: #d80269;
+  border-color: #a40150;
+
+}
+
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color:#f2f2f2;
     color:#4b4c4d;
   }
   
@@ -57,5 +72,25 @@
     color:#aaa;
     margin-bottom:0;
   }
-  
-  
+
+  .card {
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.5);
+  }
+
+  .btn-secondary,
+  .btn-dark {
+    background-color: #d80269 ;
+    border-color: #d80269 ;
+  }
+
+  .btn-secondary:hover,
+  .btn-dark:hover {
+    background-color: #a40150 ;
+    border-color: #a40150 ;
+  }
+
+  .card-footer {
+    border: none;
+  }

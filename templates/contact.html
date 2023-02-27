@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/img/loguito.png">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db774bea33.js" crossorigin="anonymous"></script>
+
     <title>Amazing Events</title>
+
 </head>
 
 <body>
@@ -32,7 +40,7 @@
                         <a class="nav-link" href="upcoming-ev.html">Upcoming Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active"  href="past-e.html">Past Events</a>
+                        <a class="nav-link" href="past-e.html">Past Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
@@ -47,46 +55,56 @@
 
     <header>
         <div class="container">
-            <h1 class="display-3 fst-italic text-center m-5 ">Contact</h1>
+            <h1 class="display-3 fst-italic text-center my-4 ">Contact</h1>
         </div>
     </header>
-    
+
     <form>
-    <div class="container text-start">
-        <div class="row">
-          <div class="col">
-          </div>
-          <div class="col-xl-6">
-            <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" >
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label">Email</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" >
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-    
-            <button type="submit" class="btn btn-secondary">Send form</button>
-          </div>
-          <div class="col">
-          </div>
+        <div class="container text-start">
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-xl-6">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-secondary">Send form</button>
+                </div>
+                <div class="col">
+                </div>
+            </div>
         </div>
-      </div>
     </form>
+    <footer class="footer-basic container mt-3">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/karen-ailen-lettieri/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="/index.html">Home</a></li>
+            <li class="list-inline-item"><a href="/templates/upcoming-ev.html">Upcoming Events</a></li>
+            <li class="list-inline-item"><a href="/templates/past-e.html">Past Events</a></li>
+            <li class="list-inline-item"><a href="/templates/contact.html">Contact</a></li>
+            <li class="list-inline-item"><a href="/templates/stats.html">Stats</a></li>
+        </ul>
+        <p class="copyright">Karen A. Lettieri | Front-end Dev. © 2023</p>
+    </footer>
 
-    
-       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
 
-
-    
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"></script>
-    </body>
-    
-    </html>
+</html>
